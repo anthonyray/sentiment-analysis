@@ -14,7 +14,7 @@ welcome_msg()
 Question 1
 
 """
-print "Question 1"
+question(1)
 
 """
 Question 2
@@ -33,7 +33,11 @@ try:
 finally:
     f.close()
 
-print "Question 2"
+"""
+Question 2
+"""
+
+question(2)
 print "Il y a ", concat.count('#'), " occurences de hashtags"
 
 """
@@ -46,7 +50,8 @@ tokens = preprocess(tweets[38],dicoSlang)
 Etiquetage grammatical
 """
 
-print pos_tagging(tokens)
+#print pos_tagging(tokens)
+
 
 """
 Question 3
@@ -93,14 +98,16 @@ for tweet in tweets:
         if is_verb(token[1]):  # TODO : Take into account all verbal forms
             cpt += 1
 
-print "Question 3"
+question(3)
 print 'Il y a : ' + str(cpt) + ' verbes dans la base des tweets'
 
 """
 Question 4
 
-Algorithme de détection v1 : appel au dictionnaire Sentiwordnet
+Algorithme de detection v1 : appel au dictionnaire Sentiwordnet
 """
+
+question(4)
 
 from nltk.corpus import wordnet as wn
 from sentiwordnet import *
@@ -184,12 +191,13 @@ from sklearn.metrics import classification_report
 y_true = np.array(real_sentiments)
 y_pred = np.array(predicted_sentiments)
 
-print "Question 4"
-print ""
+
+
 print classification_report(y_true,y_pred)
 
 """
 Question 5
-Algorithme de détection v2 : gestion de la négation et des modifieur
+
 
 """
+question(5)
