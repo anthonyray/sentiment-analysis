@@ -4,6 +4,13 @@ Sentiment analysis on Twitter data has attracted much attention recently. This p
 
 Based on the *sentiwordnet* corpus, the classifier can distinguish if a tweet is **Positive**, **Negative**, or **Objective**. 
 
+## Usage 
+
+- To see answers to the TP :  ```python tp.py```
+- To see the results of the classification using the first version of the algorithm : ```python tpv1.py```
+- To see the results of the classification using the second version of the algorithm :  ```python tpv2.py```
+- - To see the results of the classification using the third version of the algorithm :  ```python tpv3.py```
+
 ## Processing pipeline
 
 The processing pipeline for every tweet is the following : 
