@@ -11,6 +11,8 @@ from pos_tagging import *
 from negation import NegatingWordReader
 from modifier import ModifierWordReader
 
+welcome_msg()
+question(6)
 
 tweets = list()
 
