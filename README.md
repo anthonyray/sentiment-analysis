@@ -11,6 +11,13 @@ Based on the *sentiwordnet* corpus, the classifier can distinguish if a tweet is
 - To see the results of the classification using the second version of the algorithm :  ```python tpv2.py```
 - - To see the results of the classification using the third version of the algorithm :  ```python tpv3.py```
 
+## Requirements 
+
+You need the following libs : 
+- sklearn
+- nltk
+- numpy
+
 ## Processing pipeline
 
 The processing pipeline for every tweet is the following : 
