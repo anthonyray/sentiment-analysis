@@ -13,7 +13,7 @@ from modifier import ModifierWordReader
 from emoticon import EmojiWordReader
 
 welcome_msg()
-question(8)
+question(7)
 tweets = list()
 
 f = open('testdata.manual.2009.06.14.csv','rt')

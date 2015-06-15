@@ -24,7 +24,8 @@ class NegatingWordReader:
 
     def __init__(self,filename):
         self.filename = filename
-        self.words = list()
+        self.words = []
+        self.parse_file()
 
     def parse_file(self):
         f = open(self.filename, 'rt')

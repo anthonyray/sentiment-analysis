@@ -12,7 +12,7 @@ from negation import NegatingWordReader
 from modifier import ModifierWordReader
 
 welcome_msg()
-question(6)
+question(5)
 
 tweets = list()
 

@@ -12,7 +12,7 @@ from negation import NegatingWordReader
 from modifier import ModifierWordReader
 
 welcome_msg()
-question(6)
+question(4)
 
 
 tweets = list()
@@ -57,10 +57,6 @@ def is_valid(token):
         return True
     else:
         return False
-
-
-nwr = NegatingWordReader('NegatingWordList.txt')
-mwr = ModifierWordReader('BoosterWordList.txt')
 
 
 def filter_tweet(tweet):
